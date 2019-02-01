@@ -1,0 +1,23 @@
+# Add to the top of .bashrc
+orange=$(tput setaf 166);
+yellow=$(tput setaf 221);
+blue=$(tput setaf 26);
+white=$(tput setaf 15);
+bold=$(tput bold);
+reset=$(tput sgr0);
+
+PS1="\[${bold}\]\n";
+PS1+="\[${orange}\]\u";
+PS1+="\[${white}\] at ";
+PS1+="\[${yellow}\]\h";
+PS1+="\[${white}\] in ";
+PS1+="\[${blue}\]\w";
+PS1+="\n";
+PS1+="\[${white}\]$ \[${reset}\]";
+export PS1;
+
+
+# Add to the top of .bash_profile
+# if [ -f ~/.bashrc ]; then
+#     source ~/.bashrc
+# fi
