@@ -1,7 +1,6 @@
 import os
 import sys
 import logging
-from textwrap import dedent
 from os.path import join
 from PIL import Image, ImageEnhance
 
