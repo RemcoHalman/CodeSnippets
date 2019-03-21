@@ -7,6 +7,12 @@ ___
 
 ___
 
+#### Small Scripts
+- ``folder_creation.py``
+    - Makes a current year folder and subfolders for all months. In working _directory_
+
+___
+
 
 #### Batch adding watermark for images (watermark.py)
 ###### Free to use But use it at your own risk!
