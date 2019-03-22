@@ -20,7 +20,7 @@ folder_name = "Mileage_expenses"
 if os.path.exists(folder_name):
     pass
 else:
-    os.makedirs(f"{file_path}/{now.year}")
+    os.mkdir(folder_name)
 
 months = (
           ["1. Januari", 1],["2. Februari", 2],["3. Maart", 3], ["4. April", 4],
