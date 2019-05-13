@@ -1,6 +1,3 @@
-.git
-Pipfile*
-
 # Compiled source #
 ###################
 *.com
@@ -11,7 +8,7 @@ Pipfile*
 *.so
 __pycache__/
 *.py[cod]
-*$py.class
+*py.class
 
 # Packages #
 ############
@@ -31,6 +28,7 @@ __pycache__/
 *.log
 *.sql
 *.sqlite
+*.sqlite3
 
 # OS generated files #
 ######################
@@ -43,7 +41,7 @@ ehthumbs.db
 Thumbs.db
 
 # Environments #
-###################
+################
 .env
 .venv
 env/
@@ -51,3 +49,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.vscode
+.git
+
+# Project specific #
+####################
