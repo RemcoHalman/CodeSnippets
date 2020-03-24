@@ -17,7 +17,7 @@ months = [
 
 try:
     for month in months:
-        os.makedirs(f"{file_path}/{now.year}/{month}")
+        os.makedirs(f"{now.year}/{month}")
 except OSError:
     print ("Creation of the directory's failed")
 else:
